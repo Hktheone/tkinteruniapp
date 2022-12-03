@@ -40,7 +40,7 @@ def mainwin():
 	# This is the section of code which creates the a label
 	Label(root, text='Pass', bg='#FFEFDB', font=('helvetica', 12, 'normal')).place(x=153, y=143)
 
-	def checkIdPass(tempVa r):
+	def checkIdPass(tempVar):
 		# if(tempVar==0):
 		# 	messagebox.showinfo(message="Select a User option")
 		# 	return

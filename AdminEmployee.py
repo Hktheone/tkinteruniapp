@@ -2,19 +2,20 @@ import os
 
 from entities.Professor import Professor
 from entities.Student import Student
-
+import os
 
 class AdminEmployee():
     def __init__(self):
         self.prof = []
         self.stud = []
-        self.crPath = os.getcwd() + "\\pythonProject\\"
-        self.readStudents()
+        self.crPath =  os.path.join(os.getcwd() , "")
         self.readProfessors()
         print("Data read")
 
     def readProfessors(self):
-        with open(self.crPath + "profData.txt", "r") as file:
+        p=self.crPath+"profData.txt"
+        print(p)
+        with open(p, "r") as file:
             for rows in file.read().split("\n"):
                 row = rows.split(",")
                 if (len(row) > 1):
@@ -23,6 +24,7 @@ class AdminEmployee():
                     self.prof.append(p)
 
     def readStudents(self):
+
         with open( self.crPath + "studData.txt", "r") as file:
             for rows in file.read().split("\n"):
                 row = rows.split(",")

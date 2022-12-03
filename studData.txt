@@ -1,6 +1,0 @@
-Anwer,Anwer.cs@gmail.com,Engineering,CS,12
-Sadiq,Sadiq.bba@gmail.com,Business,BA,10
-Rafiq,Rafiq.ss@gmail.com,Engineering,SS,10
-Razaq,Razaq.ss@gmail.com,History,CS,8
-Jeremiah,Jeremiah.ss@gmail.com,Engineering,CS,12
-halar,halar@gmail.com,Science,CS,12
